@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Página personal de Francisco Mulero López, estudiante de Desarrollo de Aplicaciones Web interesado en backend, programación y ciberseguridad.">
+    <title>Francisco Mulero López · Página personal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body id="inicio">
+    <header class="cabecera">
+        <!-- Más adelante me planteo si poner la foto -->
+        <!-- <img class="avatar" src="img/foto-removebg-preview.png"
+            alt="Ilustración de un chico con camiseta negra y pelo oscuro" width="160" height="160"> -->
+
+        <div class="presentacion">
+            <h1>Francisco Mulero López</h1>
+            <p class="titular">Estudiante de DAW · Desarrollo de Aplicaciones Web</p>
+
+            <nav aria-label="Navegación principal">
+                <ul class="menu">
+                    <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+                    <li><a href="index.html#formacion">Formación</a></li>
+                    <li><a href="index.html#habilidades">Habilidades</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="seccion" id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p>
+                Hola, me llamo Francisco Mulero López, actualmente estoy realizando un ciclo superior de Desarrollo de
+                Aplicaciones Web (DAW).
+            </p>
+
+
+            <p>
+                Esta página la he desarrollado simple y llanamente para dar la información necesaria para quienes estén
+                interesados, no obstante,
+                también facilito mi correo más abajo para que podáis contactarme.
+            </p>
+
+
+            <p>
+                Los temas de backend y de ciberseguridad me llaman especialmente la atención.
+            </p>
+        </section>
+
+        <section class="seccion" id="formacion">
+            <h2>Formación</h2>
+
+            <article class="formacion-item">
+                <h3>Sistemas Microinformáticos y Redes</h3>
+                <p class="fecha">2022-2025</p>
+                <p>IES San Juan Bosco</p>
+            </article>
+
+            <article class="formacion-item">
+                <h3>Desarrollo de Aplicaciones Web</h3>
+                <p class="fecha">2025-En Curso</p>
+                <p>IES Ramón Arcas Meca</p>
+            </article>
+        </section>
+
+        <section class="seccion" id="habilidades">
+            <h2>Habilidades</h2>
+
+            <ul class="lista-habilidades">
+                <li>Conocimientos avanzados en aplicaciones ofimáticas.</li>
+                <li>He trabajado con los siguientes lenguajes:</li>
+                <ul>
+                    <li>Java.</li>
+                    <li>JavaScript.</li>
+                    <li>HTML y CSS.</li>
+                    <li>Python.</li>
+                    <li>JSON y XML.</li>
+                    <li>PHP.</li>
+                </ul>
+                <li>Bases de datos relacionales usando MySQL.</li>
+                <li>Sistemas operativos Windows y Linux.</li>
+                <li>También he trabajado con Windows Server y Ubuntu Server</li>
+            </ul>
+        </section>
+
+        <section class="seccion" id="contacto">
+            <h2>Contacto</h2>
+
+            <p>
+                Puedes contactar conmigo enviándome un correo electrónico directamente o visitando mi perfil de GitHub.
+            </p>
+
+            <ul class="lista-contacto">
+                <li>
+                    Correo:
+                    <a href="mailto:2904062@alu.murciaeduca.es">
+                        2904062@alu.murciaeduca.es
+                    </a>
+                </li>
+                <li>
+                    GitHub:
+                    <a href="https://github.com/FranciscoMulero" target="_blank"
+                        rel="noopener noreferrer">FranciscoMulero</a>
+                </li>
+            </ul>
+
+            <!-- <form id="formulario-contacto" class="formulario-contacto"
+        action="https://formsubmit.co/2904062@alu.murciaeduca.es" method="post">
+        <h3>Envíame un mensaje</h3> -->
+
+            <!-- Configuración del servicio de correo en segundo plano -->
+            <!-- <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="grupo-campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+        </div>
+
+        <div class="grupo-campo">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="email" required placeholder="tu-correo@ejemplo.com">
+        </div>
+
+        <div class="grupo-campo">
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="_subject" required placeholder="Motivo de tu mensaje">
+        </div>
+
+        <div class="grupo-campo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe aquí tu mensaje..."></textarea>
+        </div> -->
+
+            <!-- Campo oculto antispam (técnica honeypot): los usuarios no lo ven; si un bot o usuario lo rellena, se bloquea el envío -->
+            <!-- <div class="campo-oculto" aria-hidden="true" style="display: none;">
+          <label for="campo-oculto">No rellenes este campo si eres humano:</label>
+          <input type="text" id="campo-oculto" name="campo-oculto" tabindex="-1" autocomplete="off">
+        </div>
+
+        <p id="mensaje-estado" class="mensaje-estado" role="alert" style="display: none;"></p>
+
+        <div class="botones-formulario">
+          <button type="submit" class="boton" id="boton-enviar">Enviar mensaje</button>
+          <button type="reset" class="boton">Resetear</button>
+        </div>
+      </form> -->
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>
+            © <span id="anio-actual">2026</span> Francisco Mulero López
+        </p>
+
+        <button class="boton" id="volver-arriba" type="button">
+            Volver arriba
+        </button>
+    </footer>
+</body>
+
+</html>
