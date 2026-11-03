@@ -256,7 +256,7 @@ a:focus-visible, button:focus-visible {
 }
 
 /* Formulario de contacto integrado */
-.formulario-contacto {
+/* .formulario-contacto {
 	display: flex;
 	flex-direction: column;
 	gap: 1.25rem;
@@ -308,10 +308,10 @@ a:focus-visible, button:focus-visible {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 0.75rem;
-}
+} */
 
 /* Ocultación del campo trampa (honeypot) */
-.campo-oculto {
+/* .campo-oculto {
 	display: none !important;
 	position: absolute !important;
 	left: -9999px !important;
@@ -343,7 +343,7 @@ a:focus-visible, button:focus-visible {
 	border: 1px solid var(--color-secundario);
 	background-color: rgba(255, 255, 255, 0.08);
 	color: var(--color-texto);
-}
+} */
 
 @media (max-width: 768px) {
 	.cabecera {
@@ -357,6 +357,11 @@ a:focus-visible, button:focus-visible {
 
 	.rejilla-proyectos {
 		grid-template-columns: 1fr;
+	}
+
+	
+	.proyecto-pp{
+		grid-column: unset;
 	}
 
 	h1 {
