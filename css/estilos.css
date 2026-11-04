@@ -181,7 +181,7 @@ a:focus-visible, button:focus-visible {
 	border-radius: 12px;
 }
 .proyecto-pp{
-	grid-column: span 3;
+	grid-column: 2 / span 2;
 	a{
 		background-color: rgb(46, 46, 46);
 	}
